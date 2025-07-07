@@ -1,0 +1,10 @@
+I would like to make a Web app that has the form factor of a chatbot.  The idea is that a user is talking to an NFL player in a postgame interview.  In that environment, athletes tend to speak in nothing but vague platitudes, like "We just came here to take care of business" or "We don't pay attention to what goes on in the media, we just focus on what we need to do", and never really answers any of the questions they are asked.
+
+The app should talk to an LLM, preferably to the Gemini API (although I might like to switch models later), which is prompted to act like an NFL player, with examples of the kinds of responses they might give.
+
+I have a Linux (Ubuntu) VM where I will probably deploy the app, though I am open to suggestions about other deployment mechanisms; I have relatively little experience with Web apps.  The front end should be pretty simple.  Session persistence is not required.  Multiple users should be able to connect at the same time, and their sessions should not interact.
+
+I am most familiar with Python, so I have a strong preference for Python, but if this were radically simpler to do in another language, that would be OK.
+
+Don't write any code yet, just ask me any clarifying questions, and make suggestions about what framework/language you would recommend.
+
