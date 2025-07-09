@@ -41,7 +41,7 @@ class NFLChatbot {
     
     connect() {
         const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-        const wsUrl = `${protocol}//${window.location.host}/ws/${this.sessionId}`;
+        const wsUrl = `${protocol}//${window.location.host}/nfl-chatbot/ws/${this.sessionId}`;
         
         this.updateConnectionStatus('connecting', 'Connecting...');
         
